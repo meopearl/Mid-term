@@ -1,0 +1,116 @@
+p,h1 {
+    text-align: center;
+    padding: auto;
+    margin: 40px;
+}
+p.scnd{
+    text-shadow: 1px 0 0 #ffddbb,0 1px 0 #ffddbb,-1px 0 0 #ffddbb,0 -1px 0 #ffddbb;
+}
+p.frst{
+    text-shadow: 1px 0 0 #ffddbb,0 1px 0 #ffddbb,-1px 0 0 #ffddbb,0 -1px 0 #ffddbb;
+    font-size: 25px;
+}
+p.scnd{
+    font-size: 15px;
+}
+body{
+    background-image: url(bg2.png);
+    background-size: contain;
+    text-align: center;
+    margin-top: 50px;
+    color: #c9002f;
+}
+img{
+    max-width: 45%;
+    top: 50%;
+    margin: 20px;
+}
+
+#greeting {
+    font-size: 36px;  /* Make the greeting text bigger */
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: franklin gothic medium;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: #ffddbb;
+    color: #bf0b0b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#greeting {
+    font-size: 36px;  /* Make the greeting text bigger */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+button.allbtn,
+button.rgbtn {
+  color: #ffffff;
+  background-color: #bf0b0b;
+  border: 2px solid #bf0b0b;
+  border-radius: 5%; /* Slightly rounded corners */
+  padding: 10px 20px; /* Padding for button size */
+  font-size: 16px;
+  margin: 0 10px; /* Adds horizontal space between buttons */
+}
+
+button.allbtn {
+  font-family: Arial Black;
+}
+
+button.rgbtn {
+  font-family: sans-serif;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.foodimg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Adds space below the image */
+}
+
+.food-description {
+    font-size: 16px; /* Adjust the font size for readability */
+    color: #333; /* Set the text color */
+    margin-top: 10px; /* Adds space between image and text */
+    text-align: center; 
+}
+
+.card {
+    border: 1px solid #ddd; /* Border around the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+    overflow: hidden; /* Prevents content from overflowing */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Adjust title size */
+    margin-bottom: 15px;
+}
